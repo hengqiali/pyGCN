@@ -35,8 +35,8 @@ def preprocess(A):
 
 x , y = read_data('karate.data', 'label.data')
 A , D = preprocess(x)
-print A
-print D
+print(A)
+print(D)
 
 FloatTensor = torch.FloatTensor
 
